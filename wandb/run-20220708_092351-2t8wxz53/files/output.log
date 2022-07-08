@@ -1,0 +1,5 @@
+usage: train.py [-h] [--iter ITER] [--batch BATCH] [--n_sample N_SAMPLE] [--size SIZE] [--r1 R1] [--lambda_cycle LAMBDA_CYCLE]
+                [--path_regularize PATH_REGULARIZE] [--path_batch_shrink PATH_BATCH_SHRINK] [--d_reg_every D_REG_EVERY] [--g_reg_every G_REG_EVERY]
+                [--mixing MIXING] [--ckpt CKPT] [--lr LR] [--local_rank LOCAL_RANK] [--num_down NUM_DOWN] --name NAME --d_path D_PATH
+                [--latent_dim LATENT_DIM] [--lr_mlp LR_MLP] [--n_res N_RES]
+train.py: error: the following arguments are required: --name, --d_path

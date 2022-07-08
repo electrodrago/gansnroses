@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-07-08T02:23:55.433766",
+    "startedAt": "2022-07-08T02:23:51.710839",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\quocv\\OneDrive\\M\u00e1y t\u00ednh\\GANsNRoses\\train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/mchong6/GANsNRoses",
+        "commit": "59bf4680c9c700890cdf53ffac86a6f7da8a9153"
+    },
+    "email": "quocviet11102001@gmail.com",
+    "root": "C:/Users/quocv/OneDrive/M\u00e1y t\u00ednh/GANsNRoses",
+    "host": "AdoptedSon",
+    "username": "quocv",
+    "executable": "C:\\Users\\quocv\\anaconda3\\python.exe"
+}
