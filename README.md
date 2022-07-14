@@ -1,5 +1,7 @@
 # GANs N' Roses Pytorch
 
+This repository is borrow 99% from GANs N’ Roses but add my WandB from easy visualize.
+
 ![](teaser.gif)
 ![](teaser.png)
 
