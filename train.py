@@ -342,7 +342,6 @@ if __name__ == '__main__':
     parser.add_argument('--lr', type=float, default=2e-3)
     parser.add_argument('--local_rank', type=int, default=0)
     parser.add_argument('--num_down', type=int, default=3)
-    parser.add_argument('--name', type=str, required=True)
     parser.add_argument('--d_path', type=str, required=True)
     parser.add_argument('--latent_dim', type=int, default=8)
     parser.add_argument('--lr_mlp', type=float, default=0.01)
@@ -358,7 +357,7 @@ if __name__ == '__main__':
         torch.distributed.init_process_group(backend='nccl', init_method='env://')
         synchronize()
 
-    save_path = f'./{args.name}'
+    save_path = "/content/drive/MyDrive"
     im_path = os.path.join(save_path, 'sample')
     model_path = os.path.join(save_path, 'checkpoint')
     os.makedirs(im_path, exist_ok=True)
