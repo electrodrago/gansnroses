@@ -72,6 +72,7 @@ def test(args, genA2B, genB2A, testA_loader, testB_loader, name, step):
                 B2A_mod1 = torch.randn([1, args.latent_dim]).cuda()
                 A2B_mod2 = torch.randn([1, args.latent_dim]).cuda()
                 B2A_mod2 = torch.randn([1, args.latent_dim]).cuda()
+                print(A2B_mod1, A2B_mod2, B2A_mod1, B2A_mod2)
 
             fake_B2B, _, _ = genA2B(real_B)
             fake_A2A, _, _ = genB2A(real_A)
@@ -357,7 +358,7 @@ if __name__ == '__main__':
         torch.distributed.init_process_group(backend='nccl', init_method='env://')
         synchronize()
 
-    save_path = "/content/drive/MyDrive"
+    save_path = "/content/drive/MyDrive/stop30000"
     im_path = os.path.join(save_path, 'sample')
     model_path = os.path.join(save_path, 'checkpoint')
     os.makedirs(im_path, exist_ok=True)
